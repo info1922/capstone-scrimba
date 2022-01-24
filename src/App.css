@@ -3,12 +3,19 @@
     font-family: Oswald, sans-serif;
 }
 
+nav {
+    background-color: darkcyan;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .navbar {
     display: flex;
-    background-color: darkcyan;
     justify-content: space-between;
-    align-items: center;
+    min-width: 70%;
 }
+
+
 
 .titlenav {
     margin: 10px;
